@@ -1,0 +1,91 @@
+/* means for all elements*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+body {
+    background-color: rgb(254, 216, 223); 
+}
+
+header {
+    background: rgb(255, 163, 179);
+    color: #000000;
+    padding: 50px;
+    margin: 30px;
+    text-align: center;
+}
+/* add h1 to be more specific*/
+header h1 {
+    font-size: 50px;
+}
+
+nav ul {
+    font-size: 20px;
+    cursor: grabbing;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    list-style: none;
+    background-color: rgb(255, 163, 179);
+    display:flex;
+    justify-content: center;
+}
+
+nav li {
+    padding:10px;
+    font-weight: bold;
+}
+
+nav ul li a{
+    color:#000000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: pink;
+}
+
+
+#table_of_contents{
+    margin-left: 90px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    width: 90%; 
+}
+
+section {
+    margin: 70px ;
+    margin-left: 90px ;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    width: 90%;
+}
+
+section li {
+    list-style: square;
+}
+
+section h3 {
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgb(255, 163, 179);
+    color: #000000;
+    margin-top: 20px;
+}
